@@ -1,5 +1,3 @@
-# Multivm Windows And MacIntel Vagrant File
-
 Vagrant.configure("2") do |config|
     config.vm.define "web01" do |web01|
       web01.vm.box = "ubuntu/focal64"
